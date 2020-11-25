@@ -1,2 +1,2 @@
 # SparkCourse
-Spark example for beginners
+Spark examples for beginners
