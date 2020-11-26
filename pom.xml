@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.datalogic</groupId>
+    <artifactId>SparkCource</artifactId>
+    <!--/****************************************************************
+    '*   Author:  Neesh Parashar (Big Data Architect and Trainer)   *
+    '*   Contact for big data training:							    *
+    '*   Phone +91 7676451682(Neesh) | +91 9110257247(KC)           *
+    '*   email@ datalogicconsultancy@gmail.com                      *
+    '*   Copyright © 2018-2020, Datalogic. All rights reserved.     *
+    '*   Use only for learning purpose                              *
+    '***************************************************************/ -->
+    <version>1.0-SNAPSHOT</version>
+    <properties>
+        <spark.version>2.4.0</spark.version>
+        <scala.version>2.11.0</scala.version>
+    </properties>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_2.11</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_2.11</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-hive_2.11</artifactId>
+            <version>2.1.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-streaming -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming_2.11</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+
+    </dependencies>
+
+
+</project>
